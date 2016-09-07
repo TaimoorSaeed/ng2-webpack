@@ -2,6 +2,7 @@
   "name": "angular2-web",
   "version": "0.1.0",
   "scripts": {
+    "start": "webpack --progress",
     "build": "tsc --rootDir src --outDir dist",
     "postinstall": "typings install"
   },
